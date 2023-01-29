@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-borderless@4/borderless.css" rel="stylesheet">
+    <script   script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title> cotizador </title>
+</head>
+<body>
+    <header>
+
+        <div class="container-sub">
+            <h1>¡Alerta de precio Btc, suscribite!</h1> 
+            <div class="content">
+              <form class="subscription">
+                <input class="add-email" type="email" placeholder="suscribite@ahora.com">
+                <button class="submit-email" type="button">
+                  <span class="before-submit">Suscripción</span>
+                  <span class="after-submit">¡Gracias por suscribirte!</span>
+                 </button>
+              </form>
+            </div>
+          </div>
+          <h2 class="titulo"> Cotizador de criptomonedas</h2>
+          
+    </header>
+<main>
+    <div class="container">
+
+        <div class="precio">
+                    <div class="logo"><img src="../img/bitcoin.png" ></div>
+                <div>
+                    <h1>USD<span id="bitcoin"></span></h1>
+                    <h1>Bitcoin</h1>
+                </div>
+                </div>
+                <div class="precio">
+                    <div class="logo"><img src="../img/eth.png" ></div>
+                    <div>
+                        <h1>USD<span id="ethereum"></span></h1>
+                        <h1>Etherium</h1>
+                    </div>
+                </div>
+            
+                <div class="precio">
+                    <div class="logo"><img src="../img/polkadot.png" ></div>
+                    <div>
+                        <h1>USD<span id="polkadot"></span></h1>
+                        <h1>Polkadot</h1>
+                    </div>
+                </div>
+                <div class="precio">
+                    <div class="logo"><img src="../img/solana-logo.png" ></div>
+                    <div>
+                        <h1>USD<span id="solana"></span></h1>
+                        <h1>Solana</h1>
+                    </div>
+                </div>
+                <div class="precio">
+                    <div class="logo"><img src="../img/teter.png" ></div>
+                    <div>
+                        <h1>USD<span id="tether"></span></h1>
+                        <h1>Tether</h1>
+                    </div>
+                </div>
+        </div>
+    </div>
+     <div class="cotizador-int" id="cotiz">
+        <form class="formulario" id="form">
+            <div class="lista">
+                    <div class="divisa1">
+                        <div id="seleccion1">
+                            <p class="usdt"><img class="criptoimg" src="../img/teter.png" alt="Tether"> 1 Usdt = 1 USD</p>
+                        </div>
+                    </div>
+                    <div class="icono cursor"><i class="exchange-alt"></i></div>
+                    <div class="divisa2">
+                        <div id="seleccion2" class="seleccion2">
+
+                     </div>
+            </div>
+            </div>
+                <div class="contenedor-Input">
+                    <div id="contenedorInput" class="monto">
+                        <input required id='valorIngresado2' name="valorIngresado2" type="text" class="valor" placeholder="0 USD">
+                    </div>
+                </div>
+
+                 <button type="submit" id=boton class="convertir"> Convertir </button>
+                 
+                 <div id="valorResultado" class="resultado">
+
+             </div>
+
+        </form>
+    </div>
+
+</main>
+<footer class="text-center">
+            <div class="box">
+            
+                <div class="red-social">
+                    <a href="https://github.com/alemza4" class="invert" target="_blank"><img src="../img/bxl-github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/alejandro-martinez-beningaza-9217a3239/" class="invert" target="_blank"><img src="../img/bxl-linkedin.svg" alt="linkedin"></a>
+                </div>
+            
+     <div class="derechosAutor">
+            <p class="footer-company-name">Copyright © 2021 Alito All rights reserved</p>
+     </div>
+</footer>
+<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" type="text/javascript" crossorigin="anonymous"></script>
+<script defer src="../main/App.js"></script>
+</body>
+</html>

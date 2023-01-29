@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-borderless@4/borderless.css" rel="stylesheet">
+    <script   script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title> cotizador </title>
+</head>
+<body>
+<h1>Cotizador de criptomonedas</h1>
+<div class="overlay"></div>
+	<div class="container">
+		<div class="loginBox">
+			<div class="userImage">
+				<img src="./img/header.jpg">
+			</div>
+			<form id="loginForm">
+				<div class="input-wrapper">
+					<label>Introduce tu email:</label>
+					<input type="email" name="" placeholder="E-mail">
+					<div class="error-email"><div class="email-msg"></div><div class="triangle"></div></div>
+				</div>
+				<div class="input-wrapper">
+					<label>Introduce tu contraseña:</label>
+					<input type="password" name="" placeholder="Password">
+					<div class="error-pass"><div class="pass-msg"></div><div class="triangle"></div></div>
+				</div>
+				<input type="button" name="" value="LOGIN" onclick="validateForm()">
+			</form>
+		</div>
+	</div>
+	<footer class="text-center">
+		<div class="box">
+ <div class="derechosAutor">
+		<p class="footer-company-name">Copyright © 2021 Alito All rights reserved</p>
+ </div>
+</footer>
+<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script src="./main/inicio.js"></script>  
+</body>
+</html>
